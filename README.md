@@ -180,23 +180,7 @@ EVON_MODEL_PATH=
 | `POST` | `/api/assistant/query` | Conversational business assistant real-time Q&A |
 
 ---
-
-## 🏆 Hackathon Demonstration Flow
-
-1. **Dashboard Tour**: Notice today's live revenue, cash, credit, and best-selling items computed from SQLite.
-2. **Products Menu**: Inspect the catalog (Tea ₹12, Coffee ₹15, Vada ₹10, Samosa ₹15, Juice ₹30).
-3. **Manual Billing**:
-   - Filter by snacks, add items to cart.
-   - Choose split payment (e.g. ₹20 cash, ₹20 credit).
-   - Confirm billing -> View the digital thermal receipt modal and hear the spoken confirmation!
-4. **Credit Ledger (Khatabook)**:
-   - Select "Furniture Shop" to view their ledger balance.
-   - Click "Quick Fill Full Balance" or enter a partial repayment -> Record repayment.
-5. **Multilingual Voice Billing (Flagship)**:
-   - Select Tanglish or Tamil, click the microphone button, or tap the demo chip:
-     *"Anna moonu tea, rendu vadai, Furniture shop account-la podunga"*
-   - Watch the AI identify items, quantities, pricing from SQLite, customer "Furniture Shop", and "credit" payment mode.
-   - Click "Confirm & Save Order" -> Commits to SQLite -> Plays spoken confirmation audio -> Displays thermal receipt!
+mation audio -> Displays thermal receipt!
 6. **Conversational Assistant**:
    - Ask: *"How much did I earn today?"* or *"How much does Furniture Shop owe?"*
    - Real-time answers are spoken back with exact SQLite numbers.
