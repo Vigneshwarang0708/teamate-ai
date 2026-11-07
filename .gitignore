@@ -2,32 +2,38 @@
 .env
 .env.*
 !.env.example
-
-# Dependencies
-node_modules/
-.venv/
-venv/
+**/.env
+******/.env.*****
+!**/.env.example
 
 # Python
-__pycache__/
+**pycache**/
 *.py[cod]
 .pytest_cache/
-
-# Build outputs
-dist/
-build/
-coverage/
+.venv/
+venv/
 
 # Local databases
 *.db
 *.sqlite
 *.sqlite3
 
-# IDE and OS files
-.DS_Store
-Thumbs.db
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE and operating system
 .vscode/
 .idea/
-
-*.log
-*.tsbuildinfo
+.DS_Store
+Thumbs.db
